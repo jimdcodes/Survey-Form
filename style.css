@@ -5,3 +5,18 @@
     background-color: rgb(4, 1, 48);
     opacity: 70%;
 }
+.optional {
+    width: auto;
+    text-align: left;
+    
+}
+.MainTexts {
+    width: auto;
+    text-align: left;
+}
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 18px;
+}
