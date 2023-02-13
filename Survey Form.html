@@ -9,23 +9,25 @@
     </head>
     <body>
         <div>
-            <h1>freeCodeCamp Survey Form</h1>
-            <p>Thank you for taking the time to help us improve the platform</p>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
         </div>
         <div class="menu">
             <section class="text">
-                <article>
-                    <p>Name</p>
-                    <input placeholder="Enter your name" required>
-                </article>
-                <article>
-                    <p>Email</p>
-                    <input placeholder="Enter your Email" required>
-                </article>
-                <article class="item">
-                    <p class="MainTexts">Age&nbsp</p><p class="optional">(optional)</p><br>
-                    <input placeholder="Age">
-                </article>              
+                <form>
+                    <div>
+                        <p>Name</p>
+                        <input id="survey-form" placeholder="Enter your name" required>
+                    </div>
+                    <article>
+                        <p>Email</p>
+                        <input placeholder="Enter your Email" required>
+                    </article>
+                    <article class="item">
+                        <p class="MainTexts">Age&nbsp</p><p class="optional">(optional)</p><br>
+                        <input placeholder="Age">
+                    </article>
+                </form>              
             </section>
         </div>
     </body>
