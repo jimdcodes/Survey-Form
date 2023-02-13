@@ -26,3 +26,9 @@
     margin-bottom: 20px;
     width: 100%;
 }
+.submit {
+    width: 100%;
+    background-color: rgb(16, 173, 121);
+    color: white;
+    padding: 7px;
+}
