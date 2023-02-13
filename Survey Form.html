@@ -31,6 +31,19 @@
                         <label for="number" id="number-label" class="MainTexts">Age&nbsp</label><label class="optional">(optional)</label><br>
                         <input class="botspace" id="number" min="18" max="100" type="number" name="number" placeholder="Age">
                     </div>
+                    <!--Adding dropdown menu-->
+                    <div class="item">
+                        <label for="occupation">Which option best describes your current role?</label><br>
+                        <select id="occupation" name="occupationn" class="botspace">
+                            <!--Use disabled selected to have an unselectable default-->
+                            <option value="" disabled selected>Select current role</option>
+                            <option value="Student">Student</option>
+                            <option value="Full Time Job">Full Time Job</option>
+                            <option value="Full Time Learner">Full Time Learner</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
                     <!--Adding radio choices-->
                     <div class="item">
                         <span class="MainTexts">Would you recommend freeCodeCamp to a friend?</span><br>
