@@ -16,14 +16,17 @@
             <!--Adding section with inputs-->
             <section class="text">
                 <form id="survey-form">
+                    <!--Adding a required input for name-->
                     <div class="item">
                         <label for="name">Name</label><br>
                         <input id="name" name="name" placeholder="Enter your name" required>
                     </div>
+                    <!--Adding a required input for email-->
                     <div class="item">
                         <label for="email">Email</label><br>
                         <input id="email" type="email" name="email" placeholder="Enter your Email" required>
                     </div>
+                    <!--Adding an optional input for age as a number input-->
                     <div class="item">
                         <label for="age" class="MainTexts">Age&nbsp</label><label class="optional">(optional)</label><br>
                         <input id="age" min="18" max="100" type="number" name="age" placeholder="Age">
