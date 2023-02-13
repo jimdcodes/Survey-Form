@@ -3,8 +3,10 @@
 }
 .menu {
     background-color: rgb(4, 1, 48);
-    opacity: 70%;
+    opacity: 80%;
     padding: 25px;
+    max-width: 400px;
+    min-width: 400px;   
 }
 .optional {
     width: auto;
@@ -31,4 +33,28 @@
     background-color: rgb(16, 173, 121);
     color: white;
     padding: 7px;
+}
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+    /*tinting background color using background: linear-gradient(), url(img link)*/
+    background: linear-gradient(
+        rgba(123, 49, 241, 0.45),
+        rgba(255,0,0,0.45)
+    ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);        
+}
+.centerwhite {
+    max-width: 400px;
+    min-width: 400px;
+    color: rgb(221, 212, 212);
+    text-align: center;
+    padding-top: 25px;
+}
+.centerwhite2 {
+    max-width: 400px;
+    min-width: 400px;    
+    color: rgb(221, 212, 212);
+    text-align: center;
+    margin-top: -18px;
+    margin-bottom: 30px;
 }
